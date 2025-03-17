@@ -306,7 +306,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Voir le projet",
-          url: "http://lienversvotreprojet.com/" // Remplacer par le lien du projet si disponible
+          url: "https://github.com/Achraf8EL/CSI_Fest_L3" // Remplacer par le lien du projet si disponible
         }
       ]
       
@@ -319,7 +319,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Voir le projet",
-          url: "http://lienversvotreprojet.com/" // Remplacer par le lien du projet si disponible
+          url: "https://github.com/Achraf8EL/L3-MIASHS-Projet-Mod-lisation-bdd" // Remplacer par le lien du projet si disponible
         }
       ]
       
@@ -332,7 +332,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Voir le projet",
-          url: "http://lienversvotreprojet.com/" // Remplacer par le lien du projet si disponible
+          url: "https://github.com/Achraf8EL/L3-MIASHS-Color-Addict" // Remplacer par le lien du projet si disponible
         }
       ]
     },
@@ -344,7 +344,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Voir le projet",
-          url: "http://lienversvotreprojet.com/" // Remplacer par le lien du projet si disponible
+          url: "https://github.com/Achraf8EL/L2-MIASHS-Ecommerce-Project" // Remplacer par le lien du projet si disponible
         }
       ]
       
@@ -357,7 +357,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Voir le projet",
-          url: "http://lienversvotreprojet.com/" // Remplacer par le lien du projet si disponible
+          url: "https://github.com/Achraf8EL/Club_Nautique_2024_2025" // Remplacer par le lien du projet si disponible
         }
       ]
       
@@ -370,7 +370,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Voir le code",
-          url: "https://github.com/ton-repository/finstere-flure"
+          url: "https://github.com/Achraf8EL/Finstere_Flure-master"
         }
       ]
     },
@@ -382,7 +382,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Voir le projet",
-          url: "http://lienversvotreprojet.com/" // Remplacer par le lien du projet si disponible
+          url: "https://github.com/Achraf8EL/ProjetWEBS" // Remplacer par le lien du projet si disponible
         }
       ]
     }
