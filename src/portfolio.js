@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Achraf El Messaoudi",
+  title: "Bonjour, Je m'appel Achraf",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Étudiant en M1 MIAGE, je suis motivé et à la recherche d'une alternance de 12 mois pour relever de nouveaux défis ! Avec un rythme de 1 mois en entreprise et 1 mois à l'université je suis prêt à mettre toute mon énergie et mes compétences au service d'une équipe dynamique pour contribuer à des projets innovants et ambitieux. Let's make it happen ! 🚀"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Achraf8EL",
+  linkedin: "https://www.linkedin.com/in/el-messaoudi-achraf/",
+  gmail: "achraf.elmessaoudi2003@gmail.com",
+  gitlab: "https://gitlab.univ-lorraine.fr/elmessao6u",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,17 +45,24 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Mes Compétences",
+  subTitle: "DÉVELOPPEUR FRONT-END & ANALYSTE DE DONNÉES EN RECHERCHE D'ALTERNANCE",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Développement d'interfaces utilisateurs interactives pour vos applications web et mobiles"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Applications Web Progressives (PWA) en stacks normaux et SPA"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Intégration de services tiers tels que Firebase, AWS, Digital Ocean"
+    ),
+    emoji("⚡ Analyse de données et visualisation avec Python, R, SQL"),
+    emoji("⚡ Maîtrise des bibliothèques comme React, D3.js pour l'analyse de données"),
+    emoji("⚡ Utilisation de techniques de Machine Learning pour l'analyse de données"),
+    emoji("⚡ Gestion et manipulation de bases de données avec PostgreSQL, MongoDB, MySQL"),
+    emoji("⚡ Collaboration avec Git, GitHub, Jira, Trello pour une gestion de projet efficace"),
   ],
+
+
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -81,6 +85,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
+      skillName: "typescript",
+      fontAwesomeClassname: "fab fa-js-square"
+    },
+    {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
@@ -88,14 +96,47 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
+    
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     },
+    {
+      skillName: "php",
+      fontAwesomeClassname: "fab fa-php"
+    },
+    {
+      skillName: "R",
+      fontAwesomeClassname: "fab fa-r-project"
+    },
+    {
+      skillName: "c",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "powerbi",
+      fontAwesomeClassname: "fab fa-microsoft"
+    },
+    {
+      skillName: "figma",
+      fontAwesomeClassname: "fab fa-figma"
+    },
+    {
+      skillName: "symfony",
+      fontAwesomeClassname: "fab fa-symfony"
+    },
+    {
+      skillName: "django",
+      fontAwesomeClassname: "fab fa-python"
+    },{
+      skillName: "bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
+    },
+    
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
@@ -125,24 +166,44 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
+
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Université de Lorraine - IDMC Nancy",
+      logo: require("./assets/images/universite.jpeg"), // Remplace par le logo de l'université de Lorraine
+      subHeader: "Master MIAGE (Méthodes Informatiques Appliquées à la Gestion des Entreprises)",
+      duration: "Septembre 2024 - Septembre 2026",
+      desc: "Master orienté vers le développement informatique, la gestion de projets et l’analyse des systèmes d’information.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Approfondissement des connaissances en développement logiciel et gestion des systèmes d'information",
+        "Participation à des projets de gestion de données, analyse de systèmes et architecture logicielle",
+        "Acquisition de compétences en analyse de données et gestion de projets IT"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Université de Lorraine - IDMC Nancy",
+      logo: require("./assets/images/universite.jpeg"),
+      subHeader: "Licence MIASHS parcours MIAGE",
+      duration: "Septembre 2021 - Juin 2024",
+      desc: "Formation en développement logiciel, gestion de projets et analyse des données.",
+      descBullets: [
+        "Apprentissage des bases du développement web",
+        "Analyse et conception de systèmes d'information avec la méthode UML et Merise",
+        "Développement d'applications full-stack",
+        "Gestion de bases de données ",
+        "Acquisition des compétences en Data Science et Analyse de données"
+      ]
+    },
+    {
+      schoolName: "GSR 2 Fès",
+      logo: require("./assets/images/gsr2.jpeg"),
+      subHeader: "Baccalauréat Science Physique",
+      duration: "Septembre 2020 - Juin 2021",
+      desc: "Formation en sciences physiques avec une solide base en mathématiques et en analyse expérimentale.",
+      descBullets: [
+        "Approfondissement des concepts fondamentaux en physique, chimie et mathématiques",
+        "Réalisation de travaux pratiques en laboratoire pour l'expérimentation scientifique",
+        "Renforcement des compétences en résolution de problèmes complexes et analyse de données"
+      ]
     }
   ]
 };
@@ -150,23 +211,38 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true, // Mettre à true pour afficher la section de compétences
+  intro: "Bien que je possède une solide maîtrise des concepts dans les domaines clés je m'efforce constamment de m'améliorer et d'élargir mes connaissances pour rester à jour avec les dernières technologies et meilleures pratiques.",
+
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend/Design", // Stack ou technologie avec laquelle tu as de l'expérience
+      progressPercentage: "75%" // Progression dans le développement Frontend, toujours en évolution
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "75%" // Progression dans le développement Backend, avec de l'expérience mais encore à perfectionner
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Programmation",
+      progressPercentage: "80%" // Bonne maîtrise des concepts de programmation, mais toujours en amélioration
+    },
+    {
+      Stack: "Analyse de données",
+      progressPercentage: "70%" // Compétence en analyse de données, avec une amélioration continue dans l'utilisation des outils
+    },
+    {
+      Stack: "Gestion des bases de données",
+      progressPercentage: "80%" // Expérience solide avec les bases de données, mais encore de l'espace pour progresser
+    },
+    {
+      Stack: "UI/UX Design",
+      progressPercentage: "65%" // Une approche créative du design, mais encore beaucoup à explorer et à apprendre
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false // Mettre à true pour afficher la section des badges CodersRank. Pense à changer ton nom d'utilisateur dans src/containers/skillProgress/skillProgress.js:17:62. Par défaut, c'est sur false.
 };
+
 
 // Work experience section
 
@@ -174,30 +250,37 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Stage | Développeur Web",
+      company: "Artossi USA",
+      companylogo: require("./assets/images/artossi.png"), // Remplacer avec le logo de l'entreprise si nécessaire
+      date: "Avril – Juillet 2024",
+      desc: "Conception et développement de l'interface utilisateur et admin, gestion de la base de données et mise en place de diverses solutions techniques pour une application web interactive.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Conception et développement Frontend et Backend d’une interface utilisateur interactive et responsive",
+        "Mise en place et gestion de la base de données SQL",
+        "Conception et développement d’une interface admin pour l’application web",
+        "Développement et intégration d’API",
+        "Mise en place des tests unitaires pour assurer la qualité du code",
+        "Déploiement et gestion de l’application web sur le service cloud AWS",
+        "Mise en place d’une intégration continue CI/CD",
+        "Documentation complète du travail réalisé"
       ]
     },
+    
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Stagiaire Développeur Data Analyste",
+      company: "Bus-Bio Industries SARL",
+      date: "Juin – Août 2023",
+      companylogo: require("./assets/images/b.webp"),
+      desc: "Participation à l'analyse et à la visualisation des données pour améliorer les processus décisionnels.",
+      descBullets: [
+        "Création de tableaux de bord Power BI pour suivre les indicateurs clés.",
+        "Traitement et nettoyage des données issues de fichiers CSV.",
+        "Automatisation de l’analyse de données avec Python et SQL.",
+        "Élaboration de rapports pour optimiser les processus internes."
+      ]
     }
+    
   ]
 };
 
@@ -206,35 +289,100 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projets Universitaires",
+  subtitle: "PROJETS RÉALISÉS DANS LE CADRE DE MES ÉTUDES ET DE MA FORMATION",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/fest.png"), // Remplacer avec l'image du projet
+      projectName: "Application Web de Planification des Interventions pour un Festival",
+      projectDesc: "Conception et implantation d'une application web pour la planification des interventions lors d'un festival.",
+      technologies: ["HTML", "CSS", "JavaScript", "React", "PostgreSQL", "PHP", "Bootstrap"],
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Voir le projet",
+          url: "http://lienversvotreprojet.com/" // Remplacer par le lien du projet si disponible
         }
-        //  you can add extra buttons here.
+      ]
+      
+    },
+    {
+      image: require("./assets/images/db.avif"), // Remplacer avec l'image du projet
+      projectName: "Conception de Base de Données Touristiques",
+      projectDesc: "Création d'une base de données pour la gestion des informations touristiques.",
+      technologies: "DataGrip, phpMyAdmin",
+      footerLink: [
+        {
+          name: "Voir le projet",
+          url: "http://lienversvotreprojet.com/" // Remplacer par le lien du projet si disponible
+        }
+      ]
+      
+    },
+    {
+      image: require("./assets/images/ca.jpeg"), // Remplacer avec l'image du projet
+      projectName: "Jeu 'Color Addict'",
+      projectDesc: "Conception et implémentation du jeu 'Color Addict' utilisant Java et Swing.",
+      technologies: "Java, Swing",
+      footerLink: [
+        {
+          name: "Voir le projet",
+          url: "http://lienversvotreprojet.com/" // Remplacer par le lien du projet si disponible
+        }
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/store.jpeg"), // Remplacer avec l'image du projet
+      projectName: "Site Web e-commerce avec Base de Données",
+      projectDesc: "Création d'un site web interactif connecté à une base de données.",
+      technologies: "HTML, CSS, JS, AJAX, JQuery, PHP, phpMyAdmin",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Voir le projet",
+          url: "http://lienversvotreprojet.com/" // Remplacer par le lien du projet si disponible
+        }
+      ]
+      
+    },
+    {
+      image: require("./assets/images/cn.webp"), // Remplacer avec l'image du projet
+      projectName: "Application Web de Gestion d'un Club Nautique",
+      projectDesc: "Développement d'une application web pour gérer un club nautique, permettant la gestion des adhésions et des activités.",
+      technologies: "HTML, CSS, JS, React, Node.js, TailwindCSS, PostgreSQL",
+      footerLink: [
+        {
+          name: "Voir le projet",
+          url: "http://lienversvotreprojet.com/" // Remplacer par le lien du projet si disponible
+        }
+      ]
+      
+    },
+    {
+      image: require("./assets/images/ff.webp"), // Remplacer avec l'image du projet
+      projectName: "Finstere Flure Game",
+      projectDesc: "Création du jeu 'Finstere Flure' en Java avec Swing et JDBC. Ce jeu permet aux joueurs de naviguer à travers un environnement en 3D, tout en résolvant des puzzles pour avancer dans les niveaux.",
+      technologies: ["Java", "Swing", "JDBC"],
+      footerLink: [
+        {
+          name: "Voir le code",
+          url: "https://github.com/ton-repository/finstere-flure"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/data.jpeg"), // Remplacer avec l'image du projet
+      projectName: "Application Web de Visualisation des Données CSV",
+      projectDesc: "Développement d'une application web permettant de visualiser les données extraites de fichiers CSV à l'aide de Python, avec un interface en HTML/CSS.",
+      technologies: "Python, Ubuntu, HTML, CSS",
+      footerLink: [
+        {
+          name: "Voir le projet",
+          url: "http://lienversvotreprojet.com/" // Remplacer par le lien du projet si disponible
         }
       ]
     }
@@ -242,63 +390,108 @@ const bigProjects = {
   display: true // Set false to hide this section, defaults to true
 };
 
+
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Réalisations et Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Réalisations, Certifications, que j'ai obtenues au cours de mon parcours !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Python pour le Deep Learning & le Machine Learning: A à Z",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Certificat de fin de formation sur Python pour le Deep Learning et le Machine Learning.",
+      image: require("./assets/images/udemy.jpeg"), // Remplace avec ton logo Udemy si nécessaire
+      imageAlt: "Udemy Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://www.udemy.com/certificate/UC-a4964a75-611b-4e22-8e29-42c18f54bfec/"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "HTML5 et CSS3: La Formation Complète",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Certificat de fin de formation sur HTML5 et CSS3.",
+      image: require("./assets/images/udemy.jpeg"),
+      imageAlt: "Udemy Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://www.udemy.com/certificate/UC-5ef9564a-bb80-4607-a8ec-3a233e4d0888/"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "CSS, Bootstrap, JavaScript And PHP Stack Complete Course",
+      subtitle:
+        "Certificat de fin de formation sur CSS, Bootstrap, JavaScript et PHP.",
+      image: require("./assets/images/udemy.jpeg"),
+      imageAlt: "Udemy Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certification",
+          url: "https://www.udemy.com/certificate/UC-ba42b0f3-117a-47fa-a782-507121fdb6e1/"
         }
       ]
-    }
+    },
+    {
+      title: "JavaScript pour les débutants : Cours complet pour débutants",
+      subtitle:
+        "Certificat de fin de formation en JavaScript pour débutants.",
+      image: require("./assets/images/udemy.jpeg"),
+      imageAlt: "Udemy Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.udemy.com/certificate/UC-58ce330b-fa3e-4153-8aa8-efdbda0bcf75/"
+        }
+      ]
+    },
+    {
+      title: "Python pour la Data Science et le Machine Learning: A à Z",
+      subtitle:
+        "Certificat de fin de formation sur Python pour la Data Science et le Machine Learning.",
+      image: require("./assets/images/udemy.jpeg"), // Remplace avec ton logo Udemy si nécessaire
+      imageAlt: "Udemy Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.udemy.com/certificate/UC-fa5400b4-c825-4c76-abb4-37ca9a726a88/"
+        }
+      ]
+    },
+    {
+      title: "Mastering C++ Language - C++ Programming For Beginners",
+      subtitle:
+        "Certificat de fin de formation sur la maîtrise du C++.",
+      image: require("./assets/images/udemy.jpeg"), // Remplace avec ton logo Udemy si nécessaire
+      imageAlt: "Udemy Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.udemy.com/certificate/UC-9b703d06-aa64-4b4b-a206-28279190fc9c/"
+        }
+      ]
+    },
+    {
+      title: "HTML5 et CSS3: La Formation Complète",
+      subtitle:
+        "Certificat de fin de formation sur HTML5 et CSS3 avec Meta Brains.",
+      image: require("./assets/images/udemy.jpeg"),
+      imageAlt: "Udemy Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.udemy.com/certificate/UC-5ef9564a-bb80-4607-a8ec-3a233e4d0888/"
+        }
+      ]
+    },
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -324,7 +517,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +536,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +549,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -365,16 +558,17 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contactez-moi ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Vous souhaitez discuter d'un projet ou simplement dire bonjour ? Ma boîte de réception est ouverte à tous.",
+  number: "+33 7 55 95 82 51",
+  email_address: "achraf.elmessaoudi2003@gmail.com"
 };
+
 
 // Twitter Section
 

@@ -11,7 +11,9 @@ export default function StackProgress() {
       <Fade bottom duration={1000} distance="20px">
         <div className="skills-container">
           <div className="skills-bar">
-            <h1 className="skills-heading">Proficiency</h1>
+            <h1 className="skills-heading">Compétences en IT</h1>
+            <p>
+Je suis conscient que l'IT est un domaine en constante évolution et les pourcentages que j’ai utilisés reflètent ma progression basés sur mes projets et expériences. Je continue à m'auto-former régulièrement pour rester à jour avec les nouvelles technologies et améliorer mes compétences.</p>
             {techStack.experience.map((exp, i) => {
               const progressStyle = {
                 width: exp.progressPercentage

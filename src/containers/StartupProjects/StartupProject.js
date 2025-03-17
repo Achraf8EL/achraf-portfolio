@@ -32,6 +32,10 @@ export default function StartupProject() {
             {bigProjects.subtitle}
           </p>
 
+          {/* Affichage des technologies */}
+
+
+
           <div className="projects-container">
             {bigProjects.projects.map((project, i) => {
               return (
