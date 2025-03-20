@@ -8,6 +8,8 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import cvPdf from '../../assets/CV-alternance_idmc.pdf';
+
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
@@ -42,12 +44,12 @@ export default function Greeting() {
                 <Button text="Contactez Moi" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                  href={require("../../assets/CV-alternance_idmc.pdf")}
-                                      download="CV-alternance_idmc.pdf"
-                    className="download-link-button"
-                  >
-                    <Button text="Télécharger mon CV" />
-                  </a>
+                  href={cvPdf}
+                  download="CV-alternance_idmc.pdf"
+                  className="download-link-button"
+                >
+                  <Button text="Télécharger mon CV" />
+                </a>
                 )}
               </div>
             </div>
