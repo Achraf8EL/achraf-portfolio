@@ -26,7 +26,7 @@ const greeting = {
     "Étudiant en M1 MIAGE, je suis motivé et à la recherche d'une alternance de 12 mois pour relever de nouveaux défis ! Avec un rythme de 1 mois en entreprise et 1 mois à l'université je suis prêt à mettre toute mon énergie et mes compétences au service d'une équipe dynamique pour contribuer à des projets innovants et ambitieux. Let's make it happen ! 🚀"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/13SmAAsws0nyopHLIF2GwXc_5jANXdpG6/view?usp=share_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
