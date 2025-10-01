@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Achraf El Messaoudi",
-  title: "Bonjour, Je m'appel Achraf",
+  title: "Bonjour, Je m'appelle Achraf",
   subTitle: emoji(
-    "Étudiant en M1 MIAGE, je suis motivé et à la recherche d'une alternance de 12 mois pour relever de nouveaux défis ! Avec un rythme de 1 mois en entreprise et 1 mois à l'université je suis prêt à mettre toute mon énergie et mes compétences au service d'une équipe dynamique pour contribuer à des projets innovants et ambitieux. Let's make it happen ! 🚀"
+    "Étudiant en M2 MIAGE parcours Systèmes d'Information Distribués, je suis motivé et à la recherche d'une alternance de 12 mois pour relever de nouveaux défis ! Avec un rythme de 1 mois en entreprise et 1 mois à l'université je suis prêt à mettre toute mon énergie et mes compétences au service d'une équipe dynamique pour contribuer à des projets innovants et ambitieux. Let's make it happen ! 🚀"
   ),
   resumeLink:
     "https://drive.google.com/file/d/13SmAAsws0nyopHLIF2GwXc_5jANXdpG6/view?usp=share_link", // Set to empty to hide the button
