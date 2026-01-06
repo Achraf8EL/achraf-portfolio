@@ -27,7 +27,7 @@ const greeting = {
   ),
   resumeLink:
     "https://drive.google.com/file/d/13SmAAsws0nyopHLIF2GwXc_5jANXdpG6/view?usp=share_link", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  displayGreeting: false // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
@@ -250,7 +250,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Stage | Développeur Web",
+      role: "Stage | Développeur Web & DevOps",
       company: "Artossi USA",
       companylogo: require("./assets/images/artossi.png"), // Remplacer avec le logo de l'entreprise si nécessaire
       date: "Avril – Juillet 2024",
@@ -268,12 +268,15 @@ const workExperiences = {
     },
     
     {
-      role: "Stagiaire Développeur Data Analyste",
+      role: "Stagiaire Développeur Data Analyst Etude et Développement",
       company: "Bus-Bio Industries SARL",
       date: "Juin – Août 2023",
       companylogo: require("./assets/images/b.webp"),
       desc: "Participation à l'analyse et à la visualisation des données pour améliorer les processus décisionnels.",
       descBullets: [
+        "Conception de scripts pour le traitement automatisé des données de production",
+        "Optimisation du code existant pour améliorer la performance et lamaintenabilité",
+        "Validation des résultats par des tests croisés pour assurer la fiabilité des calculs industriels",
         "Création de tableaux de bord Power BI pour suivre les indicateurs clés.",
         "Traitement et nettoyage des données issues de fichiers CSV.",
         "Automatisation de l’analyse de données avec Python et SQL.",
