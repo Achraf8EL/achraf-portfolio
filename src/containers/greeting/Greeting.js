@@ -8,7 +8,6 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
-import cvPdf from '../../assets/CV-alternance_idmc.pdf';
 
 
 export default function Greeting() {
@@ -45,7 +44,7 @@ export default function Greeting() {
                 {greeting.resumeLink && (
                   <a
                   href={cvPdf}
-                  download="CV-alternance_idmc.pdf"
+                  download=""
                   className="download-link-button"
                 >
                   <Button text="Télécharger mon CV" />
