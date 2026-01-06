@@ -40,17 +40,17 @@ export default function Greeting() {
               <div id="resume" className="empty-div"></div>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contactez Moi" href="#contact" />
-                {greeting.resumeLink && (
-                  <a
-                  href={cvPdf}
-                  download=""
-                  className="download-link-button"
-                >
-                  <Button text="Télécharger mon CV" />
-                </a>
-                )}
-              </div>
+  <Button text="Contactez Moi" href="#contact" />
+
+  <a
+    href="https://github.com/Achraf8EL"
+    target="_blank"
+    rel="noreferrer"
+    className="download-link-button"
+  >
+    <Button text="Mon GitHub" />
+  </a>
+</div>
             </div>
           </div>
           <div className="greeting-image-div">
